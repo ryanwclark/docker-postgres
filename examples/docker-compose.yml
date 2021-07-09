@@ -1,0 +1,20 @@
+version: '2.4'
+services:
+  
+  postgres-db:
+    image: ryanwclark/postgres:13
+    container_name: postgres-db  
+    volumes:
+      - ./db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=database
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - ZABBIX_HOSTNAME=postgres-db
+    networks:
+      - services
+    restart: always
+
+networks:
+  internal:
+    external: false
