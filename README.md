@@ -1,10 +1,10 @@
  # github.com/ryanwclark/docker-postgres
 
-[![GitHub release](https://img.shields.io/github/v/tag/ryanwclark/docker-postgres?style=flat-square)](https://github.com/ryanwclark/docker-postgres/releases/latest)
 [![Build Status](https://img.shields.io/github/workflow/status/ryanwclark/docker-postgres/build?style=flat-square)](https://github.com/ryanwclark/docker-postgres/actions?query=workflow%3Abuild)
 [![Docker Stars](https://img.shields.io/docker/stars/ryanwclark/postgres.svg?style=flat-square&logo=docker)](https://hub.docker.com/ryanwclark/postgres/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/ryanwclark/postgres.svg?style=flat-square&logo=docker)](https://hub.docker.com/ryanwclark/postgres/)
 
+* * *
 
 ## About
 
@@ -17,28 +17,29 @@ It has the same configuration variables as the Official [Postgres Image](https:/
 
 ## Table of Contents
 
-- [About](#about)
-- [Maintainer](#maintainer)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-  - [Build from Source](#build-from-source)
-  - [Prebuilt Images](#prebuilt-images)
-- [Installation](#installation-1)
-  - [Build from Source](#build-from-source-1)
-  - [Prebuilt Images](#prebuilt-images-1)
-  - [Environment Variables](#environment-variables)
-    - [Base Images used](#base-images-used)
-  - [Networking](#networking)
-- [Maintenance](#maintenance)
-  - [Shell Access](#shell-access)
-- [Contributions](#contributions)
-- [Support](#support)
-  - [Usage](#usage)
-  - [Bugfixes](#bugfixes)
-  - [Feature Requests](#feature-requests)
-  - [Updates](#updates)
-- [License](#license)
-- [References](#references)
+- [github.com/ryanwclark/docker-postgres](#githubcomryanwclarkdocker-postgres)
+  - [About](#about)
+  - [Maintainer](#maintainer)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+    - [Build from Source](#build-from-source)
+    - [Prebuilt Images](#prebuilt-images)
+  - [Installation](#installation-1)
+    - [Build from Source](#build-from-source-1)
+    - [Prebuilt Images](#prebuilt-images-1)
+    - [Environment Variables](#environment-variables)
+      - [Base Images used](#base-images-used)
+    - [Networking](#networking)
+  - [Maintenance](#maintenance)
+    - [Shell Access](#shell-access)
+  - [Contributions](#contributions)
+  - [Support](#support)
+    - [Usage](#usage)
+    - [Bugfixes](#bugfixes)
+    - [Feature Requests](#feature-requests)
+    - [Updates](#updates)
+  - [License](#license)
+  - [References](#references)
 
 ## Installation
 
